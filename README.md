@@ -1,6 +1,10 @@
 # Corporate GHG inventory and SBTi target tracking (GHG Protocol)
 
-> **Model case study.** "Indus Weave Ltd" is a hypothetical 3-site textile manufacturer with simulated activity data. Emission factors are rounded representative values (DEFRA/DESNZ-style fuel factors, IPCC AR6 GWPs, typical grid and residual-mix factors), not an official factor set.
+[![tests](https://github.com/Rabbani-bot/carbon-accounting-sbti/actions/workflows/tests.yml/badge.svg)](https://github.com/Rabbani-bot/carbon-accounting-sbti/actions/workflows/tests.yml) ![Python](https://img.shields.io/badge/python-3.11%20%7C%203.12-blue) ![License: MIT](https://img.shields.io/badge/license-MIT-green)
+
+> **Case company.** "Indus Weave Ltd" is a modelled 3-site textile manufacturer; monthly activity data are generated with a fixed seed for full reproducibility. Emission factors are rounded representative values (DEFRA/DESNZ-style fuel factors, IPCC AR6 GWPs, typical grid and residual-mix factors), not an official factor set.
+
+![SBTi target tracking](outputs/figures/05_sbti_tracking.png)
 
 ## Scope and methods
 | Element | Method |
@@ -13,7 +17,7 @@
 | Decomposition | Additive LMDI-I (activity, site structure, energy intensity, carbon factor). Exact, with no residual |
 | Uncertainty | Monte Carlo on Scope 3; the lognormal spread for each category comes from its data-quality score, with mean preserved |
 
-## Key results (model case study)
+## Key results
 | Metric | 2022 | 2025 | Change |
 |---|---|---|---|
 | Scope 1 (t CO2e) | 17,391 | 14,985 | −13.8% |
@@ -58,6 +62,7 @@ python src/analyze.py && python -m pytest tests
 
 ## Links
 - Kaggle notebook: https://www.kaggle.com/rabbani0123 (runnable copy of `notebook.ipynb`)
+- Cite: see `CITATION.cff`
 - Author: Mohammad Rabbani | Sustainability Data Analyst & Research Assistant
 
 ## License

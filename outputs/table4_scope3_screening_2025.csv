@@ -1,0 +1,16 @@
+category,name,method,data_quality,relevant,tco2e,share_%
+1,Purchased goods & services,hybrid (supplier + spend),3,True,60208.07,60.77
+2,Capital goods,spend-based,4,True,4520.97,4.56
+3,Fuel- & energy-related activities,"average-data (WTT, T&D)",2,True,4155.07,4.19
+4,Upstream transport & distribution,distance-based,3,True,7065.07,7.13
+5,Waste generated in operations,waste-type,3,True,991.15,1.0
+6,Business travel,distance-based,2,True,770.41,0.78
+7,Employee commuting,survey extrapolation,4,True,1417.06,1.43
+8,Upstream leased assets,n/a,5,False,0.0,0.0
+9,Downstream transport & distribution,distance-based,4,True,5839.49,5.89
+10,Processing of sold products,average-data,4,True,3236.04,3.27
+11,Use of sold products,indirect (laundering),5,True,8029.05,8.1
+12,End-of-life of sold products,waste-type,4,True,2843.3,2.87
+13,Downstream leased assets,n/a,5,False,0.0,0.0
+14,Franchises,n/a,5,False,0.0,0.0
+15,Investments,n/a,5,False,0.0,0.0
