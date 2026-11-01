@@ -1,6 +1,8 @@
 """Shared, consistent figure style for all portfolio projects."""
+import logging
 import matplotlib
 matplotlib.use("Agg")
+logging.getLogger("matplotlib.font_manager").setLevel(logging.ERROR)  # quiet fallback-font warnings
 import matplotlib.pyplot as plt
 
 PALETTE = ["#1D4E89", "#00A6A6", "#F6AE2D", "#E4572E", "#6A4C93", "#8AC926", "#5C677D"]
