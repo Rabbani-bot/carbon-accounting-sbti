@@ -61,7 +61,7 @@ python src/analyze.py && python -m pytest tests
 ```
 
 ## Links
-- Kaggle notebook: https://www.kaggle.com/rabbani0123 (runnable copy of `notebook.ipynb`)
+- Kaggle notebook (runs end-to-end on Kaggle): https://www.kaggle.com/code/rabbani0123/ghg-inventory-and-sbti-target-tracking
 - Cite: see `CITATION.cff`
 - Author: Mohammad Rabbani | Sustainability Data Analyst & Research Assistant
 
